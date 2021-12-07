@@ -1,0 +1,12 @@
+.usersList{
+  padding-top: 0;
+
+  &>:first-child{
+    width: auto;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+}
+.listItem:hover{
+  color: gray;
+}

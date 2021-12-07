@@ -1,0 +1,21 @@
+.registerPage{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.telegramLogo{
+  width: 15rem;
+  height: 15rem;
+}
+
+.registerForm{
+  justify-content: center;
+}
+
+.inputBox{
+  display: grid;
+  &>*{
+    &>*{
+      margin-bottom: 1rem;
+    }
+  }
+}

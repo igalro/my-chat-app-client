@@ -1,0 +1,14 @@
+.pageWrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.chatContacts{
+  width: 50%
+}
+
+.chatConversation{
+  background-image: url("../../../static/images/homepage-background.jpg");
+  background-size: cover;
+  width: 80%;
+}

@@ -1,0 +1,19 @@
+.loginPage{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.telegramLogo{
+  width: 15rem;
+  height: 15rem;
+}
+
+.formWrapper{
+  display: grid;
+  justify-content: center;
+  & > *{
+      & > *{
+      margin-bottom: 1rem;
+    }
+  }
+}
